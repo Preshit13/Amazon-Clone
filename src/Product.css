@@ -12,20 +12,15 @@
   z-index: 1;
 }
 
+.product__rating {
+  display: flex;
+}
+
 .product > img {
   max-height: 200px;
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
-}
-
-.product__info {
-  height: 100px;
-  margin-bottom: 15px;
-}
-
-.product__price {
-  margin-top: 5px;
 }
 
 .product > button {
@@ -36,6 +31,11 @@
   color: #111;
 }
 
-.product__rating {
-  display: flex;
+.product__price {
+  margin-top: 5px;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
 }
